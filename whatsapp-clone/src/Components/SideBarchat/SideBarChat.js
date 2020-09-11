@@ -27,7 +27,7 @@ const SideBarChat=({addNewChat})=> {
             
         </div>
     ):(
-      <div onClick={this.createChat} className="sidebarChat">
+      <div onClick={createChat} className="sidebarChat">
       <h2>Add new chat</h2>
       
       </div>
